@@ -62,26 +62,26 @@
         <div class="test-body">
             <div class="item">
                 <img src="../Imagenes/face.jpg" width="100%" height="100%">
-                <div class="name">Josnaider Navarro Goméz</div>
+                <div class="name">Josnaider</div>
                 <small class="desig">Desarollador y Diseñador Web</small>
-                <div class="share"><a href="https://www.facebook.com/yosnaider.navarrogomez/" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
+                <div class="share"><a href="" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
                 <p>Desarrollador de Paginas Web, Estudiante de Corposucre.
                 </p>
             </div>
             <div class="item">
                 <img src="../Imagenes/oñate.jpg">
-                <div class="name">Fernando Oñate</div>
+                <div class="name">Fernando</div>
                 <small class="desig">Desarollador y Diseñador Web</small>
-                <div class="share"><a href="https://web.facebook.com/theclashkiller" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
+                <div class="share"><a href="" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
                 <p> Desarrollador de Paginas Web, Estudiante de Corposucre.</p>
             </div>
            
 
              <div class="item">
                 <img src="../Imagenes/ner.jpg">
-                <div class="name">Heiner Sequeda</div>
+                <div class="name">Heiner</div>
                 <small class="desig">Desarollador y Diseñador Web</small>
-                <div class="share"><a href="https://www.facebook.com/heinerjose.sequedasequeda.3/" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
+                <div class="share"><a href="" target="_blank" ><i  class="ion-social-facebook"></i></a> <a><i class="ion-social-twitter"></i></a> <a><i class="ion-social-instagram"></i></a></div>
                 <p> Desarrollador de Paginas Web, Estudiante de Corposucre. </p>
             </div>
         </div>
