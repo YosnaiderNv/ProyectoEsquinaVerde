@@ -29,7 +29,7 @@ try {
     $Elmail->Port       = 465;
 
     //Recipients
-    $Elmail->setFrom('laesquinaverde37@gmail.com', 'ESQUINA VERDE');
+    $Elmail->setFrom('laqui va el correo', 'ESQUINA VERDE');
     $Elmail->addAddress($email, $nombre);
 
 
