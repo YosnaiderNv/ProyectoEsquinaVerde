@@ -1,0 +1,213 @@
+:root {
+    --dark: #000000;
+    --dark-x: #1E2126;
+    --light: #ffffff;
+    --teal: #46b842;
+    --teal-x: #CAFEB2;
+    --blue-x: #1EA2F8;
+    --light-s: #FFFFD8;
+}
+
+body {
+    font-family: 'Spartan', 'sans-serif';
+    font-weight: 300;
+    color: var(--light);
+    background-color: #F4F7FB;
+}
+
+.indexBody {
+    color: black;
+}
+
+input[type=password], input[type=number] {
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=password]::-webkit-input-placeholder, input[type=text]::-webkit-input-placeholder {
+    color: var(--dark);
+}
+
+input[type=password]:focus, input[type=number]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--blue-x);
+}
+
+.form-text {
+    color: var(--dark) !important;
+    font-weight: bold;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.bg-dark {
+    background: linear-gradient(to bottom right, var(--dark-x), var(--teal)) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x);
+}
+
+.bg-teal-x {
+    background-color: var(--teal-x);
+}
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.form-control:focus {
+    background-color: var(--teal-x);
+    outline: none;
+}
+
+.TiendaImg1 {
+    background-image: url('TiendaImg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.TiendaImg2 {
+    background-image: url('TiendaImg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    /*background-color: black;*/
+    margin-top: 0%;
+}
+
+.ayuda-btn {
+    /**/
+    background-color: #1B75E6;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.ayuda-btn:hover {
+    /**/
+    color: white;
+    background-color: #4F94EB;
+}
+
+aside {
+    min-width: 20%;
+    height: 100%;
+    background-color: #E0E0E0;
+    padding: 20px;
+    border-radius: 8px;
+    position: sticky;
+    top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside .titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #078581;
+}
+
+aside .aside-nav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+aside .aside-nav a:hover {
+    display: block;
+    margin-bottom: 10px;
+    color: #CCFFCC;
+    background-color: #626262;
+}
+
+aside .aside-nav a:hover {
+    transition: color 0.8s linear 0.2s;
+}
+
+.contenedor {
+    max-width: 97.5%;
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    /*background-color: black;*/
+    /*color: white;*/
+}
+
+.contenedor-2 {
+    max-width: 100%;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: auto;
+    display: block;
+    /*background-color: #ccc;*/
+    color: black;
+}
+
+.contenedor-3 {
+    font-size: 15px;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: auto;
+    display: block;
+    /*background-color: #ccc;*/
+    color: black;
+}
+
+table {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 7px 20px 0 rgba(0, 0, 0, 0.50);
+}
+
+table caption {
+    font-weight: bold;
+}
+
+table a {
+    text-decoration: none;
+}
+
+.edit {
+    color: #7CF67A;
+}
+
+.delete {
+    color: #F67E7A;
+}
+
+table a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    padding-top: 14px;
+}
+
+.bg-light-s {
+    background-color: var(--light-s);
+}
